@@ -15,8 +15,8 @@ public class AgentTest {
     @Test
     public void testAgentId() {
         AgentSystem agentSystem = new AgentSystem();
-        Agent agent = new PingAgent("123", agentSystem);
-        assertEquals("123", agent.getAgentId());
+        Agent agent = new PingAgent("149", agentSystem);
+        assertEquals("149", agent.getAgentId());
     }
 }
 
